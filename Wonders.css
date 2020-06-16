@@ -1,5 +1,6 @@
 body{
-
+	margin: 0;
+	padding: 0;
 	background-image: url('wonders.jpg');
 }
 header{ 
@@ -36,16 +37,21 @@ h2{
 	text-align: center;
 }
 nav a{
-	display: inline;
-	margin:0 auto;
-	width:auto;
-	margin-left:4.8%;
+	display: inline-block;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
 	text-decoration: none;
 	border-style: solid;
 	border-width: 1px 1px;
 	border-color: #000000;
 	border-radius: 20px;
 	padding: 0.5%;
+	padding-left: 7%;
+	padding-right: 7%;
+	transition-property: color,width,background,border-radius;
+	transition-duration: .5s;
+	transition-timing-function: linear;
+	transition-delay: .5s;
 	transition: 1.5s ease;
 	opacity: 10;
 	font-size: 20px;
@@ -67,11 +73,13 @@ nav a:hover{/*Pseudo classes*/
 	background:#B3B3B3;
 	color: #0006CC;
 	border-radius: 50px;
-	width: 800px;
-	height: 400px;
+	width: 50px;
+	transition-delay: .5s;
 	
 }
-.main-nav {
-  display: flex;
+.wonders2{
+	z-index: 100;
 }
+
+
 
