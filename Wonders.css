@@ -71,3 +71,8 @@ nav a:hover{/*Pseudo classes*/
 	height: 400px;
 	
 }
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
