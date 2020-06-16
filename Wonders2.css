@@ -1,0 +1,38 @@
+body{
+	padding: 0.3%;
+	background-image: url('image3.png');
+}
+h1{
+	color: #F5FFFA;
+}
+img{
+	display: block;
+	border-style: solid;
+	border-radius: 2%;
+	transition: 2s ease;
+}
+.wonders{
+	background-color:#F5FFFA;
+	transition: 2s ease;
+	border-style: solid;
+	border-radius: 10px; 
+}
+p{
+	padding: 0.5%;
+	font-size: 30px;
+}
+a{
+	padding: 0.5%;
+	text-decoration: none;
+	font-size:20px;
+}
+.wonders2{
+	color: blue;
+}
+.wonders3{
+	background-color:yellow;
+	border-style: solid;
+	width: 45px;
+	height: 20px;
+	margin-top: 1%;
+}
